@@ -1,0 +1,25 @@
+// Description :
+// test de verification de l'affectation de classe
+//
+// Resultats :
+// ok
+
+class A {
+     int x;
+
+}
+
+class B extends A {
+    int y ;
+    int init(){
+        return 1;
+    }
+
+}
+
+{
+
+    A a ;
+    B b ;
+    a = b;
+}

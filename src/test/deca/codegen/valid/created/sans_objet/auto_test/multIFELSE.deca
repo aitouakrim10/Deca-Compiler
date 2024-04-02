@@ -1,0 +1,26 @@
+{   
+    boolean bool1 = true;
+    boolean bool2 = false;
+
+    if(bool1 == true) {
+        println("bool1 is true : passed");
+    } else {
+        println("bool1 error");
+    }
+    if(bool2 != true) {
+        println("bool2 is false : passed");
+    } else {
+        println("bool2 error");
+    }
+    if(bool1 && bool2) {
+        println("error");
+    } else {
+        println("and passed");
+    }
+     if(bool1 || bool2) {
+        println("or passed");
+    } else {
+        println(" or error");
+    }
+
+}

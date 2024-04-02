@@ -1,0 +1,13 @@
+// Description:
+//    Programme minimaliste utilisant int.
+//
+// Resultats:
+//   erreur: ligne 12 : token recognition error
+//
+// Historique:
+//    cree le 01/01/2024
+
+{
+        int x ;
+        x= 'a';
+}

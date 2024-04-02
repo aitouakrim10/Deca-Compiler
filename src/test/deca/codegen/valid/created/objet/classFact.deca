@@ -1,0 +1,40 @@
+class Fac {
+    int b = 1;
+    int tmp;
+    int fac(int n) {
+        if((n == 0) || (n ==1)){
+            return 1;
+        } else {
+            while(n > 1) {
+                b = n*b;
+                n = n -1;
+            }
+            tmp = b;
+            b = 1;
+            return tmp;
+
+        }
+    }
+}
+
+{
+    Fac fac = new Fac();
+    int res = fac.fac(4);
+    int res0 = fac.fac(0);
+    int res1 = fac.fac(1);
+    if(res == 24){
+        println("passed 1");
+    } else {
+        println("error 1");
+    }
+    if(res1 == 1){
+        println("passed 2");
+    } else {
+        println("error 2");
+    }
+    if(res0 == 1){
+        println("passed 3");
+    } else {
+        println("error 3");
+    }
+}

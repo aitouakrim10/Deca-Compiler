@@ -1,0 +1,13 @@
+// Description:
+//    Programme minimaliste utilisant un entier.
+//
+// Resultats:
+//    ligne 13 : Erreur de syntax number format exception
+//    test_lex ne doit pas donner d'erreur.
+// Historique:
+//    cree le 11/01/2024
+
+{   
+    2147483647; //nombre max un entier
+    2147483648; //dépasse le max
+}

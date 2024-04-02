@@ -1,0 +1,12 @@
+//Description
+//      test return
+//Resultat
+//      ok
+
+class A {
+    int x ;
+    int get() {
+        int a = 1;
+        return a;
+    }
+}

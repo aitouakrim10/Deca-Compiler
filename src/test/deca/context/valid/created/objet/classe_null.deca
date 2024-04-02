@@ -1,0 +1,14 @@
+// Description :
+// test classe null
+//
+// Resultats :
+// ok
+
+class A {
+     int x;
+
+}
+
+{
+    A a = null ;
+}

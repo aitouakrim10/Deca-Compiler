@@ -1,0 +1,12 @@
+// error : Selection on something that is not a field
+
+class A {
+    void m(){
+        println("passed");
+    }
+}
+
+{
+    A a = new A();
+    a.m;
+}

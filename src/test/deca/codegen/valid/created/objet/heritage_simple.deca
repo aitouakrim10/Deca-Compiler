@@ -1,0 +1,44 @@
+// Description :
+// test de verification redefinition de methode
+//
+// Resultats :
+// ok
+
+class A {
+    protected int x;
+    int getX(){
+       return this.x;
+    }
+
+    void setX(int x){
+        this.x = x;
+    }
+}
+
+class B extends A {
+    int y ;
+    void init(){
+        this.x = 2 ; 
+        this.y = 1 ;
+    }
+    int getY(){
+        return this.y;
+    }
+}
+
+{
+    B b = new B();
+    b.setX(10);
+    if (b.getX()==10){
+        println("passed 1");
+    } else {
+        println("failed 1");
+    }
+
+    b.init();
+     if (b.getX()==2 && b.getY()==1){
+        println("passed 2");
+    } else {
+        println("failed 2");
+    }
+}

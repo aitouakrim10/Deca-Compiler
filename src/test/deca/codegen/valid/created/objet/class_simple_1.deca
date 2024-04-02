@@ -1,0 +1,40 @@
+// Description :
+// test de verification redefinition de methode
+//
+// Resultats :
+// ok
+
+class A {
+    int x;
+    void init(){
+       this.x = 2 ;
+    }
+    void setA (int x){
+        this.x = x;
+    }
+
+}
+
+{
+    A a = new A();
+    if (a.x == 0){
+        println("passed 1");
+    } else {
+        println("failed 1");
+    }
+
+    a.init();
+    if (a.x == 2){
+        println("passed 2");
+    } else {
+        println("failed 2");
+    }
+
+    a.setA(4);
+    if (a.x == 4){
+        println("passed 3");
+    } else {
+        println("failed 3");
+    }
+
+}

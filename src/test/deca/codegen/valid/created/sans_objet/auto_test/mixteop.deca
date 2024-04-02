@@ -1,0 +1,14 @@
+{
+    // test combinaison des oper
+    int n = 20;
+    int p = 10;
+    float q = 50;
+    int m = -5;
+    boolean f = false;
+
+     if ((0.5*10 == 100.0/20.0 ) != false ) {
+        println("passed");
+    } else {
+        println("error");
+    }
+}

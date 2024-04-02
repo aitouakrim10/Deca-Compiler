@@ -1,0 +1,16 @@
+// Description:
+//    nom de la methode deja utilisée
+//Resultat :
+//    ok
+
+class A {
+    int x ;
+    void init() {
+        x = 0 ;
+    }
+
+    int init() {
+        x = 0 ;
+        return x
+    }
+}

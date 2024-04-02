@@ -1,0 +1,39 @@
+// Programme Deca de test
+
+// Déclaration de classe Animal
+class Animal {
+ void faireDuBruit() {
+ println("Un bruit indéfini");
+ }
+}
+
+// Déclaration de classe Chien, qui hérite de la classe Animal
+class Chien extends Animal {
+ // Override de la méthode faireDuBruit
+ void faireDuBruit() {
+ println("Le chien aboie");
+ }
+
+ void faireAutreChose() {
+ println("Le chien fait quelque chose de spécial");
+ }
+}
+
+// Programme principal
+{
+ // Création d'une instance de la classe Chien
+ Chien monChien = new Chien();
+
+ // Appel de la méthode de la classe Chien
+
+ // Cast explicite de Chien vers Animal
+ Animal animal = (Animal) (monChien);
+ monChien.faireDuBruit();
+
+ // Appel de la méthode de la classe Animal à travers le cast
+ animal.faireDuBruit();
+
+ // Appel de la méthode spécifique de la classe Chien
+ monChien.faireAutreChose();
+}
+

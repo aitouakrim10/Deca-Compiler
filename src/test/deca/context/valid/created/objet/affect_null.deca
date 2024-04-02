@@ -1,0 +1,16 @@
+// Description :
+// test classe null affectation
+//
+// Resultats :
+// ok
+
+class A {
+     int x;
+
+}
+
+{
+    A a = new A ();
+    a = null;
+
+}

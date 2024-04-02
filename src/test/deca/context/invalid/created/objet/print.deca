@@ -1,0 +1,15 @@
+// Description:
+//      Erreur contextuelle : le type de 'a' (A) n'est pas un sous-type de B.
+//      le type de l’expression doit être un sous-type de la classe courante
+//Resultat :
+//    Ligne 14 : variable protected
+
+
+class A {
+    protected int x;
+}
+
+{
+    A a = new A();
+    println(a.x);
+}

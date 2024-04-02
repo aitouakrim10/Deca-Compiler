@@ -1,0 +1,15 @@
+{
+    int a = 10;
+    float b = 10;
+
+    if(a != b) {
+        println("error");
+    } else {
+         if(b <= 0) {
+            println("error");
+        } else {
+            println("a == b and a,b > 0 : ok");
+            println("passed");
+        }
+    }
+}

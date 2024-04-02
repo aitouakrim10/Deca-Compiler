@@ -1,0 +1,14 @@
+{
+    boolean a = false;
+    boolean b;
+    boolean c = 2 == 0 ;
+
+    a =  a || (c == true) || c == c == (2 == 4);
+    a = !a;
+    if(a) {
+        println("passed");
+    } else {
+        println("error");
+    }
+
+}

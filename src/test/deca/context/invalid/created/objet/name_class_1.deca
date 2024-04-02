@@ -1,0 +1,9 @@
+// Description :
+// test de verification nom de class
+//
+// Resultats :
+//      Ligne 7 : nom de la classe pas autorise
+
+class boolean {
+    int x;
+}

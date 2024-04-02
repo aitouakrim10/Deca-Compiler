@@ -1,0 +1,10 @@
+//Description:
+//    cast int to float
+//Resultat :
+//    ok
+
+{
+    float x;
+    int a;
+    x = (float) (a);
+}

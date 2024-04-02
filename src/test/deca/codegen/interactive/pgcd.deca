@@ -1,0 +1,34 @@
+{   
+    int a ;
+    int b;
+    int temp;
+    int c;
+    int d;
+    println("-------------------SATRT-PGCD(int a, int b)-------------------------");
+    println("nombre a : ");
+    a = readInt();
+    c = a;
+    println("nombre b : ");
+    b = readInt();
+    d = b;
+
+    if((a == 0) && (b == 0)){
+        println("pgcd error");
+    } else {
+        if( a == 0) {
+            println("pgcd de ",c ," et ",d , " est  : " ,b);
+        } else {
+            if( b == 0) {
+                println("pgcd de ",c ," et ",d , " est  : " ,a);
+            } else {
+                while (b != 0) {
+                    temp = b;
+                    b = a - (a / b)*b;
+                    a = temp;
+                }
+                println("pgcd de ",c ," et ",d , " est  : " ,a);
+            }
+        }
+    }
+    println("-------------------END-PGCD(int a, int b)-------------------------");
+}

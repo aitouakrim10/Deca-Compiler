@@ -1,0 +1,56 @@
+// Description :
+// test de heritage
+//
+// Resultats :
+// ok
+
+class A {
+    protected int x;
+    int getX(){
+       return this.x;
+    }
+
+    void setX(int x){
+        this.x = x;
+    }
+}
+
+class B extends A {
+    int y ;
+    void init(){
+        this.x = 2 ; 
+        this.y = 1 ;
+    }
+    int getY(){
+        return this.y;
+    }
+}
+
+class C extends B{
+    int z;
+    int getZ (){
+        return this.z;
+    }
+}
+
+{
+    C c = new C();
+    if (c.getZ()==0){
+        println("passed 1");
+    } else {
+        println("failed 1");
+    }
+    c.setX(10);
+    if (c.getX()==10){
+        println("passed 2");
+    } else {
+        println("failed 2");
+    }
+
+    c.init();
+     if (c.getX()==2 && c.getY()==1){
+        println("passe 3");
+    } else {
+        println("failed 3");
+    }
+}

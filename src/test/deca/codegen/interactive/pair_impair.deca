@@ -1,0 +1,10 @@
+{
+    int a;
+    print("entrez un nombre entier readint : ");
+    a = readInt();
+    if(a%2 == 0) {
+        println("le nombre est pair");
+    } else {
+        println("le nombre est impair");
+    }
+}

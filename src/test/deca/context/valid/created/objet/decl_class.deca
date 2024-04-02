@@ -1,0 +1,12 @@
+// Description :
+//      test de verification de la declaration de classe
+// Resultats :
+//      ok
+
+class A {
+     int x ;
+
+}
+class B {
+    int x ;
+}

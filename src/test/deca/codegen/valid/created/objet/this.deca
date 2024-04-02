@@ -1,0 +1,30 @@
+class ThisExample {
+    int x;
+    int y;
+
+    void init(int x, int y) {
+        this.x = x;
+        this.y = y;
+        println("Before passing this to addTwo() method:");
+        println("x = " , this.x , ", y = " , this.y);
+    
+        add(this);
+
+        println("After passing this to addTwo() method:");
+        println("x = " , this.x , ", y = " , this.y);
+
+        if(this.x - x == 2 && this.y - y == 2){
+            println("test passed");
+        }
+    }
+
+    void add(ThisExample o){
+        o.x = o.x + 2;
+        o.y = o.y + 2;
+    }
+}
+
+{
+        ThisExample obj = new ThisExample();
+        obj.init(1,2);
+}

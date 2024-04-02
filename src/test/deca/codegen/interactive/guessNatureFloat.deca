@@ -1,0 +1,14 @@
+{
+    float a =  -1 ;
+    print("entrez un nombre  -readFloat -  a : ");
+    a = readFloat();
+    if( a == 0) {
+        println(" le nombre est null");
+    } else {
+        if(a > 0) {
+            println("a est positive");
+        } else {
+            println("a est negative");
+        }
+    }
+}

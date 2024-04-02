@@ -1,0 +1,14 @@
+class A {
+     void m()
+        asm("
+        WSTR \"hello\"  
+        WNL
+        WSTR \"passed\"     
+
+        ");
+}
+
+{
+    A a = new A();
+    a.m();
+}

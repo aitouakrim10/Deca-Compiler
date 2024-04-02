@@ -1,0 +1,16 @@
+// Description:
+//    Condition non booléenne
+//
+// Resultats:
+//    Ligne 13: Condition non booléenne.
+// 
+// Historique:
+//    cree le 01/01/2024
+
+{
+   float a;
+   // Doit etre refusé.
+   if(a){
+      a= a+1;
+   }
+}

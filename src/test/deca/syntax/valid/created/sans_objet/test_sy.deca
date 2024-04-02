@@ -1,0 +1,30 @@
+{
+    int a = 0;
+    boolean b = true;
+    float c ;
+
+
+    a  = "hello world";
+    printlnx("hello");
+    if(!b){
+        println("here",a,c,a+c,5);
+    } else if(b) {
+        println("here",a,c,a+c);
+        a = 100 +20;
+    } else {
+        println("hello");
+        a = -5;
+        if(b){
+            println("here",a,c,a+c);
+        }
+    }
+
+    while(a == 100 || !b) {
+        println("hello");
+        a = 5;
+        ;
+        if(b){
+            println("here",a,c,a+c);
+        }
+    }
+}

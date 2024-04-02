@@ -1,0 +1,19 @@
+// Description :
+// test de verification dun attribut protegé
+//
+// Resultats :
+// ok
+
+class A {
+    protected int x;
+
+}
+
+class B extends A {
+    int y ;
+    int init(){
+        B b = new B();
+        return b.x;
+    }
+
+}

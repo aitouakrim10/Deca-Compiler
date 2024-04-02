@@ -1,0 +1,20 @@
+{   int n ;
+    int b = 1;
+    println("----------------fact de n-----------------------");
+    println(" entrez le nombre n ");
+    n = readInt();
+    if(n < 0) {
+        println(" le nombre doit etre positif ou null");
+    } else {
+        if((n == 0) || (n ==1)){
+            println("fact de ", n , " est  ",b);
+        } else {
+            while(n > 1) {
+                b = n*b;
+                n = n -1;
+            }
+        println("fact de ", n , " est ",b);
+        }
+    }
+    println("----------------------------------------------------");
+}

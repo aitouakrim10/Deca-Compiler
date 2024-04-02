@@ -1,0 +1,13 @@
+// Description:
+//    Programme minimaliste utilisant float.
+//
+// Resultats:
+//  
+//
+// Historique:
+//    cree le 13/01/2024
+
+{
+        float x;
+        x=10.1E-21;
+}

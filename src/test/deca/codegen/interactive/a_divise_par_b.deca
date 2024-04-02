@@ -1,0 +1,20 @@
+{   
+    int a,b;
+    println("------ a est divisé par b ???");
+    print("entrez le nombre a (readInt) : ");
+    a = readInt();
+    print("entrez le nombre b (readInt) : ");
+    b = readInt();
+    if(b == 0) {
+        println("b est null");
+        println("exit");
+    } else {
+        if(a%b == 0) {
+            println(b , " divise  ",a);
+            println("exit");
+        } else {
+            println(b , "  ne divise pas ",a);
+            println("exit");
+        }
+    }
+}

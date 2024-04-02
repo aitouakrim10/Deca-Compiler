@@ -1,0 +1,17 @@
+{
+    int num; 
+    int reversed;
+    int remainder;
+    
+    println("Enter an integer: ");
+    num = readInt();
+    
+    while (num != 0) {
+        remainder = num % 10;
+        reversed = reversed * 10 + remainder;
+        num = num/10;
+    }
+    
+    println("Reversed number:");
+    println(reversed);
+}

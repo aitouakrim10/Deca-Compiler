@@ -1,0 +1,15 @@
+// Description:
+//    double definition de methode
+//Resultat :
+//    Ligne 12 : nom de la methode deja utilisée
+
+
+class A {
+     protected int x ;
+     void m1(int x) {
+         x = x+1 ;
+     }
+     int m1(int x) {
+         return x+1 ;
+     }
+}

@@ -1,0 +1,12 @@
+// Description:
+//    double definition de classe
+//Resultat :
+//    Ligne 10 : double definition de classe
+
+class A {
+     int x ;
+
+}
+class A {
+    int y ;
+}

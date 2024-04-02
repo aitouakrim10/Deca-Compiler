@@ -1,0 +1,13 @@
+// Description :
+//      test de verification classe object meth equals
+// Resultats :
+//      ok
+class A{
+
+}
+class B{}
+{
+    A a = new A();
+    B b = new B();
+    a.equals(b);
+}

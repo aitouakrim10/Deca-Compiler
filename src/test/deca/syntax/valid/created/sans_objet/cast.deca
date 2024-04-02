@@ -1,0 +1,12 @@
+{ // cast syntaxe
+    int a;
+    int c = 5;
+    float b = 1.6;
+    float e = 5.62;
+    
+
+    a = (int) (b); // float to int
+    b = (float) (c); // int to float
+    a = (int) (a); // int to int 
+    b = (float) (e); // float to float
+}

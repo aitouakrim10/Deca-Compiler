@@ -1,0 +1,12 @@
+// description :
+//      double definition des champs d'une fonction
+// Resultat
+//      Ligne 9 : champ deja declaré
+
+class A {
+    int x ;
+    int getX(int a) {
+        int a;
+        return x ;
+    }
+}

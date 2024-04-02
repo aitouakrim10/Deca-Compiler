@@ -1,0 +1,29 @@
+{
+    // div int int et affectation int <- int || float <- int
+    int a ;
+    int b ;
+    float c ;
+    int d;
+    println("-------------------(int) a / (int) b--------------------");
+    print("entrer un nombre entier a  = ");
+    a = readInt();
+    print("entrer un nombre entier b  = "); 
+    b = readInt();
+    println("(int) b = ",b);
+    println("(int) a  = ",a);
+
+
+    c = a/b;
+
+    println("(float) c = (int) a / (int) b = ", c);
+
+    d = a/b;
+
+    println("(int) d = (int) a / (int) b = ", d);
+
+    if(d == c) {
+        println("----------------------passed---------------------");
+    } else {
+        println("----------------------error---------------------");
+    }
+}

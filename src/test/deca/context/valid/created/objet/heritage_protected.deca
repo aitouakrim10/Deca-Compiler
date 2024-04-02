@@ -1,0 +1,26 @@
+// Description :
+//      test de verification du type protected
+//    
+// Resultats :
+// ok
+
+class A {
+    protected int x;
+    A init(){
+       A a = new A();
+       return a;
+    }
+
+}
+
+class B extends A {
+    int y ;
+    B init(){
+        B b= new B();
+        return b;
+    }
+    int addxy(){
+        return this.x + this.y;
+    }
+
+}

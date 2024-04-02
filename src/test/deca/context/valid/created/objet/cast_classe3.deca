@@ -1,0 +1,19 @@
+// Description :
+// test de verification de cast sur une classe
+//
+// Resultats :
+// ok
+
+class A {
+
+}
+
+class B extends A {
+   
+}
+
+{
+    A a = new B();
+    B b = new B() ;
+    b = (B) (a);
+}

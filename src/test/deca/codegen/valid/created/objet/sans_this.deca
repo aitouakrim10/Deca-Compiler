@@ -1,0 +1,21 @@
+class A{
+    float x = 4.3;
+}
+
+class B extends A {
+    float x = 2.0;
+    float y = 3.6;
+    float add(){
+        return x + y;
+    }
+}
+
+{
+
+    B b = new B();
+    if (b.add() == 5.6){
+        println("passed");
+    } else {
+        println("failed");
+    }
+}

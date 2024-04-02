@@ -1,0 +1,13 @@
+{   //condition error affectation a la place de boolean operation else if 
+    int i = 0;
+    while(i <= 10 ){
+        if(i%2 == 0) {
+            println(i," est pair");
+        } else if(i%2 = 1) {
+            println(i," est impair");
+        } else {
+            println("error");
+        }
+        i = i+1;
+    }
+}

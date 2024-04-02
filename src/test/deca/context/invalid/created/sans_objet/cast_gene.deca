@@ -1,0 +1,21 @@
+{   // error cast tye : string line 15
+    int a = 5;
+    float b = 7.75;
+    float c = 14.25;
+    float z = 5;
+    int d = 15;
+
+    println(z); // effet de conFloat
+    a = (int) (b); // float to int
+    println(a);
+
+    b = (float) (a); // int to float
+    println(b);
+
+    b = (string) (c); // float to float
+    println(b);
+
+    a = (int) (d); // int to int
+    println(a);
+
+}

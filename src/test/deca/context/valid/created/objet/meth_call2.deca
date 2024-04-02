@@ -1,0 +1,18 @@
+// Description :
+// test de verification appel fonction
+//
+// Resultats :
+// ok
+
+class A {
+    int x ;
+    int get() {
+        int a;
+        return a ;
+    }
+}
+
+{
+    A a = new A() ;
+    println(a.get()) ;
+}

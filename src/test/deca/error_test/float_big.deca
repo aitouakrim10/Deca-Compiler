@@ -1,0 +1,5 @@
+{   
+    // during decac
+    //output :error overflow :float too big
+    float c = 1511111111111111111111111111111111111111111111111111111.5;
+}

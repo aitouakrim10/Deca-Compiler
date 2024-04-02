@@ -1,0 +1,22 @@
+// affiche 1 comme resultat
+
+class A {
+    protected int x ;
+
+    int getX() {
+    return x ;
+    }
+    void setX(int x) {
+    this.x = x ;
+    }
+}
+{
+    A a = new A() ;
+    a.setX(1) ;
+    println("a.getX() = ", a.getX()) ;
+    if (a.getX() == 1){
+        println("passed");
+    }else{
+        println("failed");
+    }
+}

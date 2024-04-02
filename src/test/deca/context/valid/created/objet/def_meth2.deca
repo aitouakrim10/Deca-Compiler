@@ -1,0 +1,15 @@
+// Description :
+// test de verification definition de methode avec this
+//
+// Resultats :
+// ok
+class A {
+    int x ;
+    void init() {
+        this.x = 0 ;
+    }
+
+    void m() {
+        this.x = 0 ;
+    }
+}

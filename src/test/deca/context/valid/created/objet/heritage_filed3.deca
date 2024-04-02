@@ -1,0 +1,18 @@
+// Description :
+// test de verification dun attribut public
+//
+// Resultats :
+// ok
+
+class A {
+     int x;
+
+}
+
+class B extends A {
+    int y ;
+    int init(){
+        return x;
+    }
+
+}

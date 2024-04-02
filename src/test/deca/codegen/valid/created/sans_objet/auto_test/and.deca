@@ -1,0 +1,54 @@
+{   
+    // test avec and
+    int x = 5;
+    int y = 7;
+    int z = 3;
+    int m = -5;
+    int n = 20;
+    int p = 10;
+    float q = 50;
+    boolean f = false;
+    boolean t = true;
+    q = q - 30;
+
+    
+
+    if (t && (m < 0 || n > 15)) {
+        println("passed 1");
+    } else {
+        println("error");
+    }
+
+     if (f && f) {
+        println("error");
+    } else {
+        println("passed 2");
+        
+    }
+
+    if (!f && !!t && (n - q == 0 || n != 15)) {
+        println("passed 3");
+    } else {
+        println("error");
+    }
+
+    if (!(!t && n*p/q + m*2 == 0)) {
+        println("passed 4");
+    } else {
+        println("error");
+    }
+
+    if (5 == 5.0 && ((5.0*5.0 == 25) == true)) {
+        println("passed 5");
+    } else {
+        println("error");
+    }
+
+    if (y > x && !(y < z)) {
+        println("passed 6");
+    } else {
+        println("error");
+    }
+
+
+}

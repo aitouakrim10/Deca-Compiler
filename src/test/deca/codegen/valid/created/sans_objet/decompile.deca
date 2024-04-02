@@ -1,0 +1,10 @@
+{   
+    int a ;int b = 10;int c = 10;int d = 10;int e = a*b*c*d + d*c;print(a,b,c,d,a,"hello");println(a,b,c,d,a,"hello");printx(a,b,c,d,a,"hello");printlnx(a,b,c,d,a,"hello");a = 5;if(a==1){
+                                                if(a < 5){
+                                                print(1);a=4;
+                                                }else{print("ici");}print(b);}else{print(c);}
+                                                
+                                                
+            
+                                                
+                                                }

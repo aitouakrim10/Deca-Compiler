@@ -1,0 +1,31 @@
+class A {
+    void a() {
+        println("passed");
+    }
+}
+
+class B extends A {
+    void b(){
+        a();
+        println("passed");
+    }
+}
+
+class C extends B {
+    void c(){
+        b();
+        println("passed");
+    }
+}
+
+class D extends C {
+     void d(){
+        c();
+        println("passed");
+    }
+}
+
+{
+    D d = new D();
+    d.d();
+}

@@ -1,0 +1,15 @@
+class A {
+    int x;
+    void m(){
+        if(this.x == 0){
+            println("passed");
+        }
+    }
+}
+
+
+{
+    A a =new A();
+    a.m();
+
+}

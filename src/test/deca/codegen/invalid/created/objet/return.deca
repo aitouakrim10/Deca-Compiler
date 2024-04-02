@@ -1,0 +1,24 @@
+// Description :
+//      test de verification de l'instruction return en fin de fonction
+//
+// Resultats :
+//      Ligne : sortie de la methode Q.abs sans return
+class Q {
+    
+    float abs(float x) {
+    if (x < 0.0) {
+        return -x;
+    }
+}
+}
+{
+    Q q = new Q();
+    float x = 2.0;
+    x = q.abs(x);
+    if(x == 2.0){
+        print("passed");
+    }
+    else{
+        print("failed");
+    }
+}

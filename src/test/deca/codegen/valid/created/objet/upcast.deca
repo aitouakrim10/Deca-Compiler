@@ -1,0 +1,16 @@
+class A{  
+    void run(){
+        println("upcast failed");
+    }  
+}  
+
+class Up extends A{  
+    void run(){
+        println("upcast passed");
+    } 
+}
+      
+{  
+        A b = new Up();//upcasting  
+        b.run();  
+}    

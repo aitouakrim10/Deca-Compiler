@@ -1,0 +1,17 @@
+{
+    int a ;
+    int i;
+    println("compter de 0 jusqu'à le nombre n ");
+    print("entrez le nombre n : " );
+    a = readInt();
+    while(i != a ) {
+        if(a < 0 ) {
+            println(i);
+            i = i - 1;
+        } else {
+            println(i);
+        i = i + 1;
+        }
+    }
+    println(i);
+}

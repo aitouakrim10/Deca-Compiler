@@ -1,0 +1,23 @@
+// Description :
+// test de verification de l'instanciation d'une classe
+//
+// Resultats :
+// ok
+
+class A {
+     int x;
+
+}
+
+class B extends A {
+    int y ;
+    int init(){
+        return x;
+    }
+
+}
+
+{
+    A a = new B();
+   
+}

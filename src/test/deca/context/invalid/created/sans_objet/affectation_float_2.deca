@@ -1,0 +1,13 @@
+// Description:
+//    Programme minimaliste utilisant float.
+//
+// Resultats:
+//  error : invalid assign
+//
+// Historique:
+//    cree le 13/01/2024
+
+{
+        float x;
+        x= "0.123";
+}

@@ -1,0 +1,20 @@
+// Description :
+//      test de verification de l'affectation de classe
+// Resultats :
+//      Ligne 18 : affectation incompatible
+
+class A {
+    protected int x ;
+    void setX(int x) {
+        this.x = x ;
+    }
+}
+class B {
+    int y ;
+}
+{
+    A a;
+    B b;
+    b = a;
+}
+

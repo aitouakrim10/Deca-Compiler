@@ -1,0 +1,11 @@
+// Description :
+//      test de verification classe object meth equals
+// Resultats :
+//      Ligne 10 : signature equals incorrecte
+
+{
+    
+    Object o;
+    int x;
+    o.equals("toto");
+}

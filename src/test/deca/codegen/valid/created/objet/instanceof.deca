@@ -1,0 +1,25 @@
+class A{
+
+}
+class B extends A{
+
+}
+class C extends B{
+
+}
+class D {
+
+}
+class E extends D{
+
+}
+  {
+    C c = new C();
+    E e = new E();
+    D d = new D();
+
+        if (c instanceof A && !(d instanceof A) && !(e  instanceof A) && e instanceof D && d instanceof Object) {
+            print("passed");
+        }
+
+  }

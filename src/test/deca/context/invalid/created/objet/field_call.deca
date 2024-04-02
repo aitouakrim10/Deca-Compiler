@@ -1,0 +1,13 @@
+// description :
+//      appel de la methode incorrecte : trop de parametre
+// Resultat
+//      Ligne 11 : ce n'est pas une methode
+class A {
+    int x ;
+}
+
+{
+    A a = new A() ;
+    a.x() ;
+    
+}

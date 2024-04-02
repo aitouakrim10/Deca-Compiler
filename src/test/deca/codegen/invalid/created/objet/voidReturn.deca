@@ -1,0 +1,14 @@
+// error : The return type and method type are not compatible
+
+class A {
+    void m(int a) {
+        return a;
+    }
+
+
+}
+
+{
+    A a = new A();
+    println(a.m(5));
+}

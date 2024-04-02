@@ -1,0 +1,7 @@
+{
+	if((1 >= 0)) {
+		println("passed");
+	} else {
+		println("erreur");
+	}
+}

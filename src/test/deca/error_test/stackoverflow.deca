@@ -1,0 +1,10 @@
+// during ima
+//output : Error: Stack Overflow
+
+class A {
+    A a = new A ();
+}
+
+{
+    A a = new A();
+}

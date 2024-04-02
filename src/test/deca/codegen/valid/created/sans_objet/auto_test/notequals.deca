@@ -1,0 +1,27 @@
+{   // test !=
+    int a = 5;
+    int b = 7;
+    int c = 5;
+    int d = 8;
+    float e = d;
+
+    
+    if ((a != b && c != d) && (a != d && c != a + 7.8)) {
+        println("passed 1");
+    } else {
+        println("error 1");
+    }
+    
+    if ((a > 0) != false && !(e != d) && !(5 != 5) && 7.7 != 7 && -e <= 0   ) {
+        println("passed 2");
+    } else {
+        println("error 2");
+    }
+
+    if( !(5.5*10/10 + 101%2 !=  6.5)) {
+        println("passed 3");
+    } else {
+        println("error 3");
+    }
+
+}

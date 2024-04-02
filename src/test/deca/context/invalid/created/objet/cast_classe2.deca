@@ -1,0 +1,20 @@
+// Description :
+//      test de verification du cast de classe 
+// Resultats :
+//      Ligne 19 : impossible de faire ce cast
+
+class A {
+     int x;
+
+}
+
+class B {
+    
+}
+
+{
+
+    A a ;
+    B b ;
+    a = (A)(b);
+}

@@ -1,0 +1,16 @@
+// description :
+//      ne respecte pas la condition 1 :
+//      le type de la classe courante doit être un sous-type de la classe où le champ protégé est déclaré.
+// Resultat
+//      Ligne 14 : Erreur contextuelle : x est protege
+
+class A {
+    protected int x;
+}
+class X {
+    int m()
+    {
+        A a = new A();
+        return a.x ; 
+    }
+}

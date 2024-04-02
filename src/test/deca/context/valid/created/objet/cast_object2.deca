@@ -1,0 +1,12 @@
+// Description :
+//      test de verification classe object cast
+// Resultats :
+//      ok
+class A{
+
+}
+{
+    Object o ;
+    A a = new A();
+    o = (Object) (a);
+}

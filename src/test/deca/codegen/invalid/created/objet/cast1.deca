@@ -1,0 +1,22 @@
+// Description :
+//      test de verification du cast de classe 
+// Resultats :
+//      erreur dexecition; a nest pas une instance de B
+
+class A {
+     int x;
+
+}
+
+class B extends A {
+    
+}
+
+{
+
+    A a = new A();
+    B b = new B();
+    b = (B)(a);
+    println("ne devrait pas etre affiche");
+        
+}

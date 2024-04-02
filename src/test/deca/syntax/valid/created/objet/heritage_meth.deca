@@ -1,0 +1,20 @@
+// Description :
+//      Utilisation du decorateur Override
+// Resultat
+//      Ligne 16 : override n'est pas respecté
+
+class A {
+    int x;
+    void init(){
+        x = 0 ;
+    }
+
+}
+
+class B extends A {
+    int y ;
+    int init(){
+        y = 1 ;
+    }
+
+}

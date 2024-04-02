@@ -1,0 +1,8 @@
+// Description :
+//      test de verification du nom de classe 
+// Resultats :
+//      Ligne 6 : nom de classe invalide
+
+class null {
+  
+}

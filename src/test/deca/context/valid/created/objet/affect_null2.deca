@@ -1,0 +1,21 @@
+// Description :
+// test classe null affectation
+//
+// Resultats :
+// ok
+
+class A {
+     int x;
+
+}
+class B extends A {
+
+}
+
+{
+    A a = new A ();
+    B b = new B ();
+    b = null;
+    a = b;
+      
+}

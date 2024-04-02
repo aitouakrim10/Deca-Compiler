@@ -1,0 +1,12 @@
+// description :
+//      methode qui retourne un objet
+// Resultat
+//      Ligne 10 : methode ne retourne pas un type correct
+
+class A {
+    int x ;
+    int get() {
+        float a ;
+        return a ;
+    }
+}

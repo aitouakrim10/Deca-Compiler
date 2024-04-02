@@ -1,0 +1,21 @@
+// Description:
+//    Programme minimaliste utilisant boolean.
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 13/01/2024
+
+{       
+        int a =1;
+        int b=2;
+        boolean x ;
+        x= !(a>b);
+        if (x) {
+            println("test ok");
+        }
+        else {
+            println("failed");
+        }
+}

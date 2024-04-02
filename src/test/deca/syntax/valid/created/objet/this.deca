@@ -1,0 +1,14 @@
+// description :
+//      appel de la methode incorrecte 
+// Resultat
+//      Ligne 12 : methodCall this dans le main
+class A {
+   
+    void getX() {
+    } 
+}
+
+{
+    this.getX();
+   
+}

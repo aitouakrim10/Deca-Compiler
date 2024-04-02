@@ -1,0 +1,11 @@
+// description :
+//      methode qui retourne un objet
+// Resultat
+//      Ligne 9 : methode de type void n'a pas de return
+
+class A {
+    void m() {
+        int z = 1 ;
+        return z ;
+    }
+}

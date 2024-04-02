@@ -1,0 +1,20 @@
+
+// error : the field is protected 
+
+class A {
+    protected int a = 1;
+}
+
+class B extends A  {
+
+}
+
+class C extends B{
+   
+}
+
+{
+    C c = new C();
+  
+    println( c.a);
+}

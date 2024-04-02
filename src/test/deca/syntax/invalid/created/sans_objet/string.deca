@@ -1,0 +1,13 @@
+// Description:
+//    Programme minimaliste utilisant flottant.
+//
+//
+// Resultats:
+//   ligne 12 : Erreur
+//
+// Historique:
+//    cree le 11/01/2024
+
+{
+   println("hello);
+}

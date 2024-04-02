@@ -1,0 +1,23 @@
+// Description :
+// test de verification de l'affectation de classe
+//
+// Resultats :
+// ok
+
+class A {
+ 
+}
+
+class B extends A {
+    
+
+}
+class C extends B {
+   
+}
+
+{
+    A a;
+    C c;
+    a = c;
+}

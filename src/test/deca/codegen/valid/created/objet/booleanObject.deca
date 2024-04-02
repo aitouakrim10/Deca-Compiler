@@ -1,0 +1,22 @@
+class Bool{
+    boolean a;
+    boolean b;
+    boolean c;
+
+    void testerBoolean(){
+        if(a && b && !c){
+            print("passed");
+        }
+    }
+    void setBool(boolean a , boolean b , boolean c){
+        this.a = a;
+        this.b = b;
+        this.c = c;
+    }
+}
+{
+    Object o = new Object();
+    Bool bool = new Bool();
+    bool.setBool(true,true,false);
+    bool.testerBoolean();
+}

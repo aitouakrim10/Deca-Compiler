@@ -1,0 +1,28 @@
+{
+    float b ;
+    float d = 10;
+    int a ;
+    int c = 10;
+   
+    b = 2 - 1;
+    a = 10 - 9;
+    while(c != 0){
+        a = a + a + 1;
+        
+        c = c-1;
+    }
+
+    while(d != 0){
+        b = b + b + 1;
+        d = d-1;
+    }
+    
+    println("a = ",a );
+    println("b = ",b);
+
+    if(a == b) {
+        println("a == b !! passed");
+    } else {
+        println("error");
+    }
+}

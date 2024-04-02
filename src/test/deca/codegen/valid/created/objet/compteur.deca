@@ -1,0 +1,27 @@
+
+class Compteur{
+   protected int fin;
+    void compter(int m){
+            while(m<fin){
+                println(m);
+                m=m+1;
+            }
+    }
+    int getFin(){
+        return fin;
+    }
+    void setFin(int a){
+        this.fin = a;    
+        }
+    
+}
+{
+    Compteur c = new Compteur();
+    c.setFin(11);
+    if(c.getFin()==11){
+        c.setFin(22);
+        c.compter(c.getFin());
+        print("passed");
+    }
+
+}

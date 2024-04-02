@@ -1,0 +1,17 @@
+// Description :
+// test de verification this 
+//
+// Resultats :
+// ok
+
+class A {
+    int x=0;
+}
+
+class B extends A {
+    int x;
+    void init(){
+        this.x = 2;
+    }
+
+}

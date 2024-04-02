@@ -1,0 +1,20 @@
+// Description :
+// test de verification this 
+//
+// Resultats :
+// ok
+
+class A {
+    int x;
+    void init(){
+       int y = 0 ;
+    }
+}
+
+class B extends A {
+    int y ;
+    void init(){
+        int y = x ;
+    }
+
+}

@@ -1,0 +1,14 @@
+// Description:
+//    variable non declarée
+//
+// Resultats:
+//    Ligne 14: variable non declarée.
+// 
+// Historique:
+//    cree le 01/01/2024
+
+{
+   int a;
+   // Doit etre refusé.
+   a = b + 1;
+}

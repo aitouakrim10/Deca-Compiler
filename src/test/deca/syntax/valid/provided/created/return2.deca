@@ -1,0 +1,11 @@
+// Description:
+//    test de synstaxe return
+//Resultat :
+//   
+
+class A {
+    int x ;
+    void init(int a) {
+        return a;
+    }
+}

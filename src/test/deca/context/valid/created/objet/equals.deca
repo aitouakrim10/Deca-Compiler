@@ -1,0 +1,9 @@
+// Description :
+//      test de verification classe object meth equals
+// Resultats :
+//      ok
+{
+    Object o = new Object();
+    Object o2 = new Object();
+    o.equals(o2);
+}

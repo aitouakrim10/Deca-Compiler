@@ -1,0 +1,11 @@
+// description :
+//      type de parametre de fonction incorrecte
+// Resultat
+//      Ligne 8 : type void pas accepté 
+
+class A {
+    int x ;
+    int getX(void a) {
+        return x ;
+    }
+}

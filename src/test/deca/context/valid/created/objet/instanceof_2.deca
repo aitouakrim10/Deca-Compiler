@@ -1,0 +1,25 @@
+// Description :
+//      test de instanceof
+//
+// Resultats :
+// ok
+
+class A {
+    int x;
+    A init(){
+       A a = new A();
+       return a;
+    }
+
+}
+
+class B extends A {
+    int y;
+    boolean c;
+    B init(){
+        B b= new B();
+        c = b instanceof B;
+        return b;
+    }
+
+}

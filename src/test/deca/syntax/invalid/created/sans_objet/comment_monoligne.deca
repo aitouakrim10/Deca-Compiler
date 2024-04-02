@@ -1,0 +1,16 @@
+// Description:
+//    Programme minimaliste utilisant un commentaire monoligne.
+//
+// Resultats: erreur: entre guillement est interdit dans commentaire monoligne
+//    
+//
+// Historique:
+//    cree le 11/01/2024
+
+
+
+{
+    //test
+    /!
+    //"hello"
+}

@@ -1,0 +1,13 @@
+class Convfloat{
+    float p;
+    void ajouter(int m){
+        p=m+p;
+    }
+}
+{
+    Convfloat conv = new Convfloat();
+    conv.ajouter(5);
+    if(conv.p==5.0){
+        print("passed");
+    }
+}

@@ -1,0 +1,17 @@
+// Description :
+//      test de verification du cast de classe 
+// Resultats :
+//      ok
+
+class B{
+     int x;
+
+}
+
+
+{
+
+    Object o = new Object();
+    B b = new B();
+    b = (B)(o);
+}

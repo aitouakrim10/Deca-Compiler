@@ -1,0 +1,12 @@
+// Incorrect method call signature
+
+class A {
+    float m(int a, int c){
+        return a+c;
+    }
+}
+
+{
+    A a = new A();
+    println(a.m(7,8,9));
+}

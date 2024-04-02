@@ -1,0 +1,15 @@
+// Description:
+//    Programme minimaliste utilisant identificateur.
+//
+// Resultats:
+//    connaître tous les identificateur
+//
+// Historique:
+//    cree le 11/01/2024
+
+{
+    int i ;
+    string i2;
+    float a;
+    bolean b;
+}

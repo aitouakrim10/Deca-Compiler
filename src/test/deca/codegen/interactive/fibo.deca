@@ -1,0 +1,28 @@
+{
+    int n = 0;
+    int a = 0;
+    int b = 1;
+    
+    int i = 2;
+    int tmp = 0;
+    
+    println("--------------START - fibo(n)-----------------");
+    println("nombre n  :");
+    n = readInt();
+    if(n < 0 ){
+         println("n doit etre n >= 0");
+    } else {
+        if(n == 0 || n ==1){
+            println("fibo(n) = ", n);
+        } else {
+            while( i <= n) {
+                tmp = b;
+                b = a + b;
+                a = tmp;
+                i = i+1;
+            }
+            println("fibo(n) = ", b);
+        }
+    }
+    println("--------------END - fibo(n)-----------------");
+}

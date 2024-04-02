@@ -1,0 +1,25 @@
+{
+    int i;
+    int j;
+    
+    while (i <= 9) {
+        println("+-----------------------+");
+        println("| Table de ",i,"          |");
+        println("+-----------------------+");
+        j = 0;
+        while (j <= 10) {
+            if(j == 10) {
+                println("| ", i, " x ", j, " = ", i * j, "     |");
+            } else {
+                if(i*j <= 9 ){
+                    println("| ", i, " x ", j, " = ", i * j, "       |");
+                } else {
+                    println("| ", i, " x ", j, " = ", i * j, "      |");
+                }
+            }
+            j = j + 1;
+        }
+         println("+-----------------------+");
+        i = i + 1;
+    }
+}

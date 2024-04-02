@@ -1,0 +1,20 @@
+// Description :
+// test de verification appel fonction avec this
+//
+// Resultats :
+// ok
+class A {
+    int x ;
+    int getX() {
+        return x ;
+    }
+    void setX(int x) {
+        this.x = x ;
+    }
+}
+
+{
+    A a = new A() ;
+    a.setX(1) ;
+    println("a.getX() = ", a.getX()) ;
+}

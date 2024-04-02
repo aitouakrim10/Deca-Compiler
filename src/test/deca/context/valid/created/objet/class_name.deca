@@ -1,0 +1,10 @@
+// Description :
+//     nom de classe 
+//
+// Resultats :
+// ok
+
+class Int {
+     int x;
+
+}

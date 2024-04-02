@@ -1,0 +1,6 @@
+{
+   char[] nom = new char[15];
+   char[5]='5';
+   println("hello");
+   
+}

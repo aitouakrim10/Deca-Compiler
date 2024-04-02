@@ -1,0 +1,13 @@
+// Description:
+//    Programme minimaliste utilisant operateur unary.
+//
+// Resultats:
+//      error ligne 12
+//
+// Historique:
+//    cree le 13/01/2024
+
+{
+        boolean x;
+        x = -1;
+}

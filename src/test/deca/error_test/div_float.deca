@@ -1,0 +1,5 @@
+//during ima , but with the option decac -n , no  error 
+// output : MATHerror : ZeroDivision /0 
+{
+    float c = 5.5/0.0;
+}

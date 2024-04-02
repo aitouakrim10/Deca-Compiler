@@ -1,0 +1,15 @@
+// Description:
+//    nom de la methode deja utilisée
+//Resultat :
+//    Ligne 12 : double definition methode
+
+class A {
+    int x ;
+    void init() {
+        x = 0 ;
+    }
+
+    void init() {
+        x = 0 ;
+    }
+}

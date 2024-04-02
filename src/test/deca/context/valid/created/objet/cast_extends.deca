@@ -1,0 +1,23 @@
+// Description :
+// test de verification de cast de grandmere a petite fille
+//
+// Resultats :
+// ok
+
+class A {
+ 
+}
+
+class B extends A {
+    
+
+}
+class C extends B {
+   
+}
+
+{
+    A a;
+    C c;
+    a = (A) (c);
+}

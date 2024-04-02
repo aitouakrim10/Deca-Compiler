@@ -1,0 +1,17 @@
+// Description :
+//      test de verification de l'affectation de classe avec extends
+// Resultats :
+//      Ligne 16 : affectation incompatible
+
+class A {
+}
+
+class B extends A {
+}
+
+{
+
+    A a ;
+    B b ;
+    b = a;
+}

@@ -1,0 +1,15 @@
+// Description :
+// test de verification surcharge d'une methode
+//
+// Resultats :
+//      Ligne 12 : declmethod : methode deja declare 
+class A {
+     protected int x ;
+     void m1(int y) {
+         x = x+1 ;
+         x= 2;
+     }
+     void m1(float x) {
+         x = x+1 ;
+      }
+}

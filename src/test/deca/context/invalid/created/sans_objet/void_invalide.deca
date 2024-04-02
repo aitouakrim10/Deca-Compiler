@@ -1,0 +1,13 @@
+// Description:
+//    type invalide
+//
+// Resultats:
+//    Ligne 12: Type void invalide pour une variable.
+// 
+// Historique:
+//    cree le 01/01/2024
+
+{
+   // Doit etre refusé.
+   void x;
+}

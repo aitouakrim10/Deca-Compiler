@@ -1,0 +1,13 @@
+// Description:
+//    Programme minimaliste utilisant int.
+//
+// Resultats:
+//   erreur: ligne 12 : number format exception
+//
+// Historique:
+//    cree le 01/01/2024
+
+{
+        int x ;
+        x=  x=2147483648; //dépasse nombre max un entier;;
+}

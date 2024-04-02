@@ -1,0 +1,11 @@
+class A{
+
+}
+{
+ A a = new A();
+ boolean bool = a.equals(null);
+ if(!bool)
+    {
+ println("passed");
+    }
+}

@@ -1,0 +1,17 @@
+// description :
+//      appel de la methode incorrecte 
+// Resultat
+//      Ligne 15 : variable declaré pour la premiere fois
+class A {
+    int x;
+    int getX() {
+        return x ;
+    }
+    
+}
+
+{
+    A a = new A() ;
+    a.getX ;
+   
+}

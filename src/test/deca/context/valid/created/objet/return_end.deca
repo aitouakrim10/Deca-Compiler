@@ -1,0 +1,13 @@
+// Description  :
+//     return non derniiere instruction
+// Resultat
+//      ok
+
+class A {
+    int x ;
+    int m() {
+        int z = 1 ;
+        return z ;
+        z = 2 ;
+    }
+}

@@ -1,0 +1,14 @@
+// Description :
+//      test de verification type de retour methode
+//
+// Resultats :
+// ok
+
+class A {
+    int x;
+    A init(){
+       A a = new A();
+       return a;
+    }
+
+}

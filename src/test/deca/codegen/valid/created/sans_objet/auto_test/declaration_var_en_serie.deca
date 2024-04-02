@@ -1,0 +1,21 @@
+{
+    int a,b,c;
+    float e,f,g;
+    boolean h,i,j;
+
+    if(a + b +c == e + f + g){
+        if(!(h || i || j)){
+            println("passed 1");
+        } else {
+            println("error");
+        }
+    } else {
+        println("error 1");
+    }
+
+    if(a + b +c == e + f + g && !(h || i || j)){
+            println("passed 2");
+    } else {
+        println("error 2");
+    }
+}

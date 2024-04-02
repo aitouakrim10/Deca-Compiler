@@ -1,0 +1,23 @@
+// Description :
+//      test de verification redefinition de methode
+//      le type de retour un sous-type du type de retour de la méthode héritée.
+//Resultat
+//      Ligne 18 : override n'est pas respecté
+
+class A {
+    int x;
+    float init(){
+       float a = 1.0;
+       return a;
+    }
+
+}
+
+class B extends A {
+    int y ;
+    int init(){
+        int b = 1;
+        return b;
+    }
+
+}

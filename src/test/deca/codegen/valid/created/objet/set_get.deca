@@ -1,0 +1,30 @@
+// Programme Deca de test
+
+// Déclaration de classe Livre
+class Livre {
+ int titre;
+ int auteur;
+
+ // Constructeur
+ void set(int titre, int auteur) {
+ this.titre = titre;
+ this.auteur = auteur;
+ }
+
+ // Méthode pour afficher les détails du livre
+ void afficherDetails() {
+ println("passed ");
+
+ }
+}
+
+
+// Programme principal
+{
+
+ Livre livre1 = new Livre();
+ Livre livre2 = new Livre();
+ livre1.set(1,2);
+ livre1.afficherDetails();
+}
+

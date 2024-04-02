@@ -1,0 +1,36 @@
+class Return_Value {
+
+    void input(){
+
+        int x;
+        int y;
+        int z;
+
+        x = 10;
+        y = 20;
+
+        z = add(x, y);
+
+        println("Result:",z);
+        if(z == 30){
+            println("passed");
+        }
+        else{
+            println("failed");
+        }
+    }
+
+    int add(int a, int b){
+        int c;
+        c = a + b;
+        return c;
+    }
+}
+   
+    {
+
+        Return_Value obj = new Return_Value();
+
+        obj.input();
+
+    }

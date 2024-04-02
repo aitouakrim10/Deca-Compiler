@@ -1,0 +1,14 @@
+{
+    int a = 1;
+    float b = 0.5;
+    boolean c = true;
+    boolean d = false;
+    if(c){
+        println("c is true");
+        println("a = ",a);
+    }
+    if(!d) {
+        println(" d is false ");
+        println("b = ",b);
+    }
+}

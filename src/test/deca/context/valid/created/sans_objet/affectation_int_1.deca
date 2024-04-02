@@ -1,0 +1,13 @@
+// Description:
+//    Programme minimaliste utilisant int.
+//
+// Resultats:
+//   
+//
+// Historique:
+//    cree le 01/01/2024
+
+{
+        int x ;
+        x=1;
+}

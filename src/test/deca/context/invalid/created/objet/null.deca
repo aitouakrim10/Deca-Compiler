@@ -1,0 +1,23 @@
+// Description :
+// test classe null affectation
+//
+// Resultats :
+//      Ligne 21 : Ne sont pas de meme type
+
+class A {
+     int x;
+
+}
+class B {
+
+}
+
+
+{
+    A a = new A ();
+    B b = new B ();
+    a = null;
+    //b = null;
+    b = a;
+      
+}

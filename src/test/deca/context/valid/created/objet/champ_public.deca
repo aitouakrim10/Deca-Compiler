@@ -1,0 +1,15 @@
+// description :
+//       access au champ publc dune classe dans une autre
+// Resultat
+//      ok
+
+class A {
+     int x;
+}
+class X {
+    int m()
+    {
+        A a = new A();
+        return a.x ; 
+    }
+}

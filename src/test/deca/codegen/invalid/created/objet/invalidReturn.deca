@@ -1,0 +1,12 @@
+// error : The return type and method type are not compatible
+
+class A {
+    int m(float c) {
+        return c;
+    }
+}
+
+{
+    A a = new A();
+    int a = a.m(40.5);
+}

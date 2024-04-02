@@ -1,0 +1,14 @@
+{
+    int a;
+    float b;
+    boolean c;
+    println("trois variable int a, flaot b, boolean c , non initialises");
+    println("a = ",a);
+    println("b = ",b);
+    println("c true or false ?");
+    if(c){
+        println("true");
+    } else {
+        println("false");
+    }
+}

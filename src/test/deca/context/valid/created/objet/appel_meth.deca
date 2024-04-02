@@ -1,0 +1,13 @@
+// description :
+//      appel de la methode dans la classe avec this
+// Resultat
+//      ok
+class A {
+    int x ;
+    int getX() {
+        return x ;
+    }
+    void setX(int x) {
+        this.getX() ;
+    }
+}

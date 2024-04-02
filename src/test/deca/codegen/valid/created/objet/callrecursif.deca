@@ -1,0 +1,33 @@
+class A{
+    int z = 3;
+    float e ;
+    B b ;
+    void initB(){
+        b = new B();
+    }
+    B method(int s){
+        b.x = s;
+        return b;
+    }
+}
+class B {
+    int x;
+    void setX(int x){
+        this.x = x;
+    }
+    boolean p(){
+        return true;
+    }
+}
+{
+    A a = new A();
+    a.initB();
+    a.b.setX(7);
+    if(a.b.x==7){
+            if(a.method(5).x==5){
+                if(a.method(2).p()){
+                    print("passed");
+                }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+// calcule de a+ 
+class Plus{
+    int plus(int a, int b){
+        return a +b;
+    }
+}
+
+{
+    Plus p = new Plus();
+    int result = p.plus(10,10);
+    if(result == 20){
+        println("passed");
+    } else {
+        println("error");
+    }
+}

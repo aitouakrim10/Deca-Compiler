@@ -1,0 +1,23 @@
+{
+    int x;
+    boolean prime;
+    boolean stop;
+    int i;
+    print("entrez un numero pour savoir si c'est un prime number");
+    x = readInt();
+   
+    i=2;
+    while (i <= x/2 && !stop){
+        if (x % i == 0) {
+            prime = true;
+            stop = true;
+        }
+         i = i + 1;
+    }
+
+    if (!prime){
+        println("c'est un prime number");
+    } else {
+        println("ce n'est pas un prime number");
+    }
+}

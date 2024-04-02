@@ -1,0 +1,19 @@
+// Description :
+//      test de verification de l'affectation de classe avec extends
+// Resultats :
+//      ok
+
+class A {
+}
+
+class B extends A {  
+}
+class C extends B {
+}
+
+{
+
+    A a = new C();
+
+    
+}

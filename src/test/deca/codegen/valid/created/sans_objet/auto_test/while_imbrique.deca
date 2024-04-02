@@ -1,0 +1,15 @@
+{
+    boolean a;
+    int b = 5;
+    float c = 0.2;
+    float d = 5;
+
+    while(!a) {
+        while(b - c*d*5 == 0 ){
+            println("passed 1");
+            b = 0;
+        }
+        println("passed 2");
+        a = !a;
+    }
+}

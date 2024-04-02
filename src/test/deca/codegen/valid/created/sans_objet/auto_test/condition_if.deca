@@ -1,0 +1,13 @@
+// Description:
+//    Condition  booléenne
+//
+// Resultats:
+//    doit passer
+
+
+{
+   boolean a; //pardefaut false
+   if( !a){
+      println("passed");
+   }
+}

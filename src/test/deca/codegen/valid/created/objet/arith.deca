@@ -1,0 +1,40 @@
+class Arith{
+    int a;
+    int b;
+    int c;
+    int multiply(int x){
+        int res;
+        int s;
+            if(a==b&&a!=c){
+                return x*a;
+            }
+            if(a==c&&a!=b){
+                return x*c;
+            }
+    
+
+    }
+    int add(){
+        int add1=this.a;
+        int add2=this.b;
+        return add1+add2;
+    }
+    void set(int a , int b , int c){
+        this.a = a;
+        this.b=b;
+        this.c=c;
+    }
+}
+{
+    Arith arith = new Arith();
+    arith.set(2,2,3);
+    if(arith.multiply(2)==4){
+            arith.set(3,2,3);
+            if(arith.multiply(2)==6){
+                arith.set(25,25,0);
+                if(arith.add()==50){
+                    print("passed");
+                }
+            }
+    }
+}

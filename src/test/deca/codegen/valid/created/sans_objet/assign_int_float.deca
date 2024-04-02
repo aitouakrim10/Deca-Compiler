@@ -1,0 +1,11 @@
+{
+    int a = 10;
+    float b = 11;
+
+    println("b before assigne  ",b);
+    println(" a = ", a);
+    println("on fait : b = a; ");
+    b = a;
+    println("b after assigne  ",b);
+
+}

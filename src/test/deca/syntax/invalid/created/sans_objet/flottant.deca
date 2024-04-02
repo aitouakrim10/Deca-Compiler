@@ -1,0 +1,13 @@
+// Description:
+//    Programme minimaliste utilisant flottant.
+//
+//
+// Resultats:
+//    ligne 12 : Erreur, c'est pas un bon format de float hexadecimal
+//
+// Historique:
+//    cree le 11/01/2024
+
+{
+    float x = 0x123;
+}

@@ -1,0 +1,15 @@
+{
+    boolean a = true;
+    boolean b = false;
+
+    if(a){
+        if(b){
+            println("error");
+        } else {
+            println("a true and b false : ok");
+            println("test passed");
+        }
+    } else {
+        println("error");
+    }
+}

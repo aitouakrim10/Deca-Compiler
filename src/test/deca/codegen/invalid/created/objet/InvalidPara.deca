@@ -1,0 +1,12 @@
+// error : the two expressions have not the same type
+
+class A {
+    int m(int a) {
+        return a;
+    }
+}
+
+{
+    A a = new A();
+    println(a.m(505.5));
+}

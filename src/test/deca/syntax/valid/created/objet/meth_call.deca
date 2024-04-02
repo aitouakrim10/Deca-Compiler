@@ -1,0 +1,19 @@
+// description :
+//      appel de la methode incorrecte : aucun parametre passé
+// Resultat
+//      Ligne 17 : signature de methode incorrecte 
+class A {
+    int x ;
+    int getX() {
+        return x ;
+    }
+    void setX(int x) {
+        this.x = x ;
+    }
+}
+
+{
+    A a = new A() ;
+    a.setX() ;
+    println("a.getX() = ", a.getX()) ;
+}

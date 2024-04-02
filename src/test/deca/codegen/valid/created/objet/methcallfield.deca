@@ -1,0 +1,17 @@
+class A {
+    int x;
+    int m(){
+        return x;
+    }
+}
+
+
+{
+    A a =new A();
+    if(a.m() == 0){
+        println("passed");
+    } else {
+        println("error");
+    }
+
+}

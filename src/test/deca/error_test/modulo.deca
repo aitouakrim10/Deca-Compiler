@@ -1,0 +1,5 @@
+// during ima, with the option -n, no error
+// output : MATHerror : ZeroModulo %0
+{
+    int c = 5%0;
+}

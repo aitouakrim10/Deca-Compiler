@@ -1,0 +1,13 @@
+{
+    int a = 1;
+    int b = 1;
+    boolean c;
+    float d;
+    
+    c = a == b;
+    c || a==b;
+    ;
+    c && !c;
+    d = a;
+    printlnx(d);
+}

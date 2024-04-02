@@ -1,0 +1,20 @@
+{   
+    float app;
+    int i;
+    float x;
+    print("------------------ approximation de sqrt(x) -------------------");
+    print("Entrez un nombre float  x : ");
+    x = readFloat();
+    
+    if(x < 0) {
+        println("La racine carree d'un nombre negatif n'est pas definie");
+    } else {
+        app = x / 2.0;
+        while(i < 10) {
+            app = (app + x / app) / 2.0;
+            i = i + 1;
+        }
+
+        println("La racine carree de ", x, " est environ : ", app);
+    }
+}

@@ -1,0 +1,5 @@
+// during ima , with the option -n , no error
+// output; Error: Overflow during arithmetic operation
+{
+    float a = 111111111111111111111111111111111111111.1*111111111111111111111111111111111.1;
+}

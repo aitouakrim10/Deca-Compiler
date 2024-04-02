@@ -1,0 +1,12 @@
+// Description:
+//    extends sur une classe inexistante
+//Resultat :
+//    Ligne 10 : classe inexistante
+
+class C {
+   
+
+}
+class B extends A {
+    int y ;
+}

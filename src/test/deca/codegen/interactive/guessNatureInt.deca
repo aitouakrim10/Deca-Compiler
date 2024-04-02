@@ -1,0 +1,15 @@
+{
+    int a;
+    print("entrez un nombre entier  - readInt - a : ");
+    a = readInt();
+    println();
+    if( a == 0) {
+        println(" le nombre est null");
+    } else {
+        if(a > 0) {
+            println("a est positive");
+        } else {
+            println("a est negative");
+        }
+    }
+}

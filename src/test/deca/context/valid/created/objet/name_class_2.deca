@@ -1,0 +1,9 @@
+// Description :
+// test de verification nom de class
+//
+// Resultats :
+// ok
+
+class Float {
+    int x;
+}

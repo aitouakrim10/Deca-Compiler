@@ -1,0 +1,11 @@
+//Description
+//      utilisation des attributs d'une classe sans le this
+//Resultat
+//      Ok
+class A {
+    int x ;
+    int getX(int a) {
+        int y;
+        return x;
+    }
+}

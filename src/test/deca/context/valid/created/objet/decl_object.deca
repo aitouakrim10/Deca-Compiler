@@ -1,0 +1,7 @@
+// Description :
+//      test de verification classe object
+// Resultats :
+//      ok
+{
+    Object o = new Object();
+}

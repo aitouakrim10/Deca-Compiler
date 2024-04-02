@@ -1,0 +1,43 @@
+// Programme Deca de test
+
+// Déclaration de classe Personne
+class Personne {
+ // Champs (fields)
+ int age;
+ int prenom;
+
+ // Méthode pour afficher les détails de la personne
+ void afficherDetails() {
+ println(prenom);
+ println(age);
+ }
+}
+
+// Programme principal
+{
+ // Création d'une instance de la classe Personne
+ Personne personne = new Personne();
+
+ // Initialisation des champs
+ personne.prenom = 123; // Exemple d'entier pour le prénom
+ personne.age = 30;
+
+ // Test 1
+ if (personne.prenom == 123 && personne.age == 30) {
+ println("Test 1 passed");
+ } else {
+ println("Test 1 failed");
+ }
+
+ // Modification des champs
+ personne.prenom = 456; // Nouvel exemple d'entier pour le prénom
+ personne.age = 25;
+
+ // Test 2
+ if (personne.prenom == 456 && personne.age == 25) {
+ println("Test 2 passed");
+ } else {
+ println("Test 2 failed");
+ }
+}
+

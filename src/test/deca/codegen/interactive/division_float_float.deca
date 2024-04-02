@@ -1,0 +1,20 @@
+{
+    // div float float et affectation float <- float/float
+    float a ;
+    float b ;
+    float c ;
+    println("-------------------(float) a / (float) b--------------------");
+    print("entrer un nombre float a  = ");
+    a = readFloat();
+    print("entrer un nombre float b  = "); 
+    b = readFloat();
+    println("(float) b = ",b);
+    println("(float) a  = ",a);
+
+    c = a/b;
+
+    println("(float) c = (float) a / (float) b = ", c);
+
+    println("----------------------passed---------------------");
+   
+}

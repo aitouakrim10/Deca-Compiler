@@ -1,0 +1,8 @@
+//Description:
+//    cast de int en int
+//Resultat :
+//    ok
+{
+    int a;
+    a = (int) (a);
+}

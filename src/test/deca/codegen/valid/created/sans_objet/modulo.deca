@@ -1,0 +1,13 @@
+{
+    int a  =  17;
+    int b = 13;
+
+    println("17 % 13 = ",a%b);
+    println("13 % 17 = ",b%a);
+
+    a = a*b;
+    println("13*17 % 17 = ",b * a %a);
+
+    println("171 % 2  = " ,171 % 2);
+
+}

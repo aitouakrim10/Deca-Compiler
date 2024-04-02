@@ -1,0 +1,127 @@
+// Programme Deca de test
+
+// Déclaration de la première classe
+class Classe1 {
+ int champ1;
+
+ // Méthode pour afficher le champ1
+ void afficherChamp1() {
+ println("Champ1 de la Classe1 : ", champ1);
+ }
+}
+
+// Déclaration de la deuxième classe
+class Classe2 extends Classe1 {
+ int champ2;
+
+ // Override de la méthode afficherChamp1
+ void afficherChamp1() {
+ println("Champ1 de la Classe1 (dans la Classe2) : ", champ1);
+ println("Champ2 de la Classe2 : ", champ2);
+ }
+}
+
+// Déclaration de la troisième classe
+class Classe3 extends Classe2 {
+ int champ3;
+
+ // Override de la méthode afficherChamp1
+ void afficherChamp1() {
+ println("Champ1 de la Classe1 (dans la Classe3) : ", champ1);
+ println("Champ2 de la Classe2 (dans la Classe3) : ", champ2);
+ println("Champ3 de la Classe3 : ", champ3);
+ }
+}
+
+// Déclaration de la quatrième classe
+class Classe4 extends Classe3 {
+ int champ4;
+
+ // Override de la méthode afficherChamp1
+ void afficherChamp1() {
+ println("Champ1 de la Classe1 (dans la Classe4) : ", champ1);
+ println("Champ2 de la Classe2 (dans la Classe4) : ", champ2);
+ println("Champ3 de la Classe3 (dans la Classe4) : ", champ3);
+ println("Champ4 de la Classe4 : ", champ4);
+ }
+}
+
+// Déclaration de la cinquième classe
+class Classe5 extends Classe4 {
+ int champ5;
+
+ // Override de la méthode afficherChamp1
+ void afficherChamp1() {
+ println("Champ1 de la Classe1 (dans la Classe5) : ", champ1);
+ println("Champ2 de la Classe2 (dans la Classe5) : ", champ2);
+ println("Champ3 de la Classe3 (dans la Classe5) : ", champ3);
+ println("Champ4 de la Classe4 (dans la Classe5) : ", champ4);
+ println("Champ5 de la Classe5 : ", champ5);
+ }
+}
+
+// Déclaration de la sixième classe
+class Classe6 extends Classe5 {
+ int champ6;
+
+ // Override de la méthode afficherChamp1
+ void afficherChamp1() {
+ println("Champ1 de la Classe1 (dans la Classe6) : ", champ1);
+ println("Champ2 de la Classe2 (dans la Classe6) : ", champ2);
+ println("Champ3 de la Classe3 (dans la Classe6) : ", champ3);
+ println("Champ4 de la Classe4 (dans la Classe6) : ", champ4);
+ println("Champ5 de la Classe5 (dans la Classe6) : ", champ5);
+ println("Champ6 de la Classe6 : ", champ6);
+ }
+}
+
+// Déclaration de la septième classe
+class Classe7 extends Classe6 {
+ int champ7;
+
+ // Override de la méthode afficherChamp1
+ void afficherChamp1() {
+ println("Champ1 de la Classe1 (dans la Classe7) : ", champ1);
+ println("Champ2 de la Classe2 (dans la Classe7) : ", champ2);
+ println("Champ3 de la Classe3 (dans la Classe7) : ", champ3);
+ println("Champ4 de la Classe4 (dans la Classe7) : ", champ4);
+ println("Champ5 de la Classe5 (dans la Classe7) : ", champ5);
+ println("Champ6 de la Classe6 (dans la Classe7) : ", champ6);
+ println("Champ7 de la Classe7 : ", champ7);
+ }
+}
+
+// Déclaration de la huitième classe
+class Classe8 extends Classe7 {
+ int champ8;
+
+ // Override de la méthode afficherChamp1
+ void afficherChamp1() {
+ println("Champ1 de la Classe1 (dans la Classe8) : ", champ1);
+ println("Champ2 de la Classe2 (dans la Classe8) : ", champ2);
+ println("Champ3 de la Classe3 (dans la Classe8) : ", champ3);
+ println("Champ4 de la Classe4 (dans la Classe8) : ", champ4);
+ println("Champ5 de la Classe5 (dans la Classe8) : ", champ5);
+ println("Champ6 de la Classe6 (dans la Classe8) : ", champ6);
+ println("Champ7 de la Classe7 (dans la Classe8) : ", champ7);
+ println("Champ8 de la Classe8 : ", champ8);
+ }
+}
+
+// Programme principal
+{
+ // Création d'une instance de la Classe8
+ Classe8 instanceClasse8 = new Classe8();
+
+ // Initialisation des champs pour chaque classe
+ instanceClasse8.champ1 = 1;
+ instanceClasse8.champ2 = 2;
+ instanceClasse8.champ3 = 3;
+ instanceClasse8.champ4 = 4;
+ instanceClasse8.champ5 = 5;
+ instanceClasse8.champ6 = 6;
+ instanceClasse8.champ7 = 7;
+ instanceClasse8.champ8 = 8;
+ instanceClasse8.afficherChamp1();
+}
+

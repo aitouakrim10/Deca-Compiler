@@ -1,0 +1,24 @@
+// Description :
+//      test de verification redefinition de methode
+//      le type de retour un sous-type du type de retour de la méthode héritée.
+//
+// Resultats :
+// ok
+
+class A {
+    int x;
+    A init(){
+       A a = new A();
+       return a;
+    }
+
+}
+
+class B extends A {
+    int y ;
+    B init(){
+        B b= new B();
+        return b;
+    }
+
+}

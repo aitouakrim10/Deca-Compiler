@@ -1,0 +1,38 @@
+{   
+    // test avec OR
+    int m = -5;
+    int n = 20;
+    int p = 10;
+    float q = 50;
+    boolean f = false;
+    boolean t = true;
+    q = q - 30;
+
+    
+
+    if (m < 0 || n > 15) {
+        println("passed 1");
+    } else {
+        println("error");
+    }
+
+    if (!!f || f || !!f != true ) {
+       println("passed 2"); 
+    } else {
+        println("error");
+    }
+
+    if (n - q == 0 || n != 15) {
+        println("passed 3");
+    } else {
+        println("error");
+    }
+
+    if (!t || n*p/q + m*2 == 0) {
+        println("passed 4");
+    } else {
+        println("error");
+    }
+
+
+}

@@ -1,0 +1,36 @@
+{        
+        int a = 10;
+        int b = 15;
+        int c = 10;
+        float x = 20.5f;
+        float y = 20.5f;
+        float z = 18.5f;
+
+        // Test 1
+        if (a+c <= b) {
+            println("failed 1");
+        } else {
+            println("passed 1");
+        }
+
+        // Test 2
+        if (z <= a) {
+            println("failed 2");
+        } else {
+            println("passed 2");
+        }
+
+        // Test 3
+        if (a <= c && z <= y) {
+            println("passed 3");
+        } else {
+            println("failed 3");
+        }
+
+        // Test 4
+        if (y <= z) {
+            println("failed 4");
+        } else {
+            println("passed 4");
+        }
+}

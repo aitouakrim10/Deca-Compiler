@@ -1,0 +1,17 @@
+// convfloat par return. le fonction de ce test est claire dans le fichier .ass
+class Ret{
+    float ret(int a) {
+        return a;
+    }
+}
+
+{
+    Ret r = new Ret();
+    float c = r.ret(5);
+    if(c  == 5){
+         println("passed");
+    } else {
+        println("error");
+    }
+    
+}

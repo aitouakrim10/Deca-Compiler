@@ -1,0 +1,15 @@
+// Description:
+//    Condition  booléenne
+//
+// Resultats:
+//    doit passer
+//
+// Historique:
+//    cree le 01/01/2024
+
+{
+   boolean a;
+   if(a){
+      println("c'est ok");
+   }
+}

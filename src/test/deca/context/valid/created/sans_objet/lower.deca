@@ -1,0 +1,16 @@
+// Description:
+//    opereateur  <
+//
+// Resultats:
+//    
+//
+// Historique:
+//    cree le 13/01/2024
+
+{   
+    int x=1;
+    int y=2;
+   if(x<y){
+      println("c'est ok");
+   }
+}

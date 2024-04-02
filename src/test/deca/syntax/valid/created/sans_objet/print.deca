@@ -1,0 +1,13 @@
+
+// Historique:
+//    cree le 11/01/2024
+
+{
+ String a = "abcd                hello ";
+
+ println(a,b,c);
+ printlnx("hello world");
+ print(1);
+ printx(0.5);
+ 
+}

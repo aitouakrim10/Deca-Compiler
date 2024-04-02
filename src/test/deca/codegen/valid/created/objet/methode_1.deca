@@ -1,0 +1,20 @@
+class A {
+
+  void display1() {
+    println("Method without parameter, ok");
+  }
+
+  void display2(int a) {
+    println("Method with a single parameter: " , a);
+  }
+}
+
+{
+    
+    A obj = new A();
+
+    obj.display1();
+    
+    obj.display2(24);
+    println("passed");
+}

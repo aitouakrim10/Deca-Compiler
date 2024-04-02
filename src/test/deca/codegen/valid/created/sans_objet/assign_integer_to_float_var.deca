@@ -1,0 +1,6 @@
+{   
+    // convertfloat(intlateral)
+    float b;
+    b = 1;
+    println(b);
+}

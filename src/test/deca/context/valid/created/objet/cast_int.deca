@@ -1,0 +1,9 @@
+//Description:
+//    cast de float en int
+//Resultat :
+//    ok
+{
+    float x;
+    int a;
+    a = (int) (x);
+}

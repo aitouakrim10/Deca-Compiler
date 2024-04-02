@@ -1,0 +1,27 @@
+{
+    // Calcule 2^n
+    float base = 2.0;
+    float result;
+    int n;
+    int it = 0;
+
+    print("------------------ calcule de puissance de 2**n -------------------");
+    print("Entrez un nombre entier n : ");
+    n = readInt();
+
+    if (n == 0) {
+        println("La puissance de 0 est toujours 1.");
+    } else {
+        if (n == 1) {
+            println("La puissance de 1 est toujours 1.");
+        } else {
+            result = 1.0;
+            while (it < n) {
+                result = result * base;
+                it = it + 1;
+            }
+
+        println("2 puissance ", n, " est : ", result);
+        }
+    }
+}

@@ -1,0 +1,32 @@
+// Programme Deca de test
+
+// Déclaration de classes
+class Animal {
+ void faireDuBruit() {
+ /* Code générique pour faire du bruit */
+ }
+}
+
+class Chien extends Animal {
+ void faireDuBruit() {
+ println("passed");
+ }
+}
+
+class Chat extends Animal {
+ void faireDuBruit() {
+ println("passed");
+ }
+}
+
+// Programme principal
+{
+ Animal animal1 = new Chien();
+ Animal animal2 = new Chat();
+
+ animal1.faireDuBruit();
+ animal2.faireDuBruit();
+
+
+}
+

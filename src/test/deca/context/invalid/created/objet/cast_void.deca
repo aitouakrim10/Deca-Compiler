@@ -1,0 +1,15 @@
+// description :
+//      cast d'un type en un autre
+// Resultat
+//      Ligne 13 : impossible de convertir un type void 
+class A {
+    int x ;
+    void setX(int x) {
+    }
+}
+
+{
+    A a = new A() ;
+    int x = (int) (a.setX(5)) ;
+    
+}

@@ -1,0 +1,5 @@
+//error : cannot find symbol "C" type is inexistant
+
+class A {
+    C c = new C();
+}

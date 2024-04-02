@@ -1,0 +1,8 @@
+//error :  variable name can not be type name "int"
+class A {
+    int A  = 15;
+}
+
+{
+    A int   = new A();
+}

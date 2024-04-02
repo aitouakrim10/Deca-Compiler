@@ -1,0 +1,18 @@
+{   
+    int a = 1;
+    int b = 2;
+    boolean e = a==b;
+    boolean f;
+    if(e) {
+        println("error1");
+    } else  {
+        println("passed 1");
+        if (f && e ){
+            println("error 2");
+        } else if(!!f) {
+            println("error 3");
+        } else {
+            println("passed");
+        }
+    }
+}
